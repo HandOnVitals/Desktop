@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>pt.gov.cartaodecidadao</groupId>
-            <artifactId>pt.gov.cartaodecidadao</artifactId>
+            <artifactId>pteidlibj</artifactId>
             <version>3.7.0</version>
         </dependency>
     </dependencies>
@@ -46,7 +46,7 @@
                         <!-- Usage: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>hov.App</mainClass>
+                            <mainClass>hov/hov.App</mainClass>
                         </configuration>
                     </execution>
                 </executions>
